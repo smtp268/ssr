@@ -3,6 +3,7 @@
 # Author: Tony<https://git.io/Tony>
 # bash <(curl -sL https://git.io/SS.sh)
 # sudo apt-get install -y curl
+# yum install -y curl
 RED="\033[31m"      # Error message
 GREEN="\033[32m"    # Success message
 YELLOW="\033[33m"   # Warning message
