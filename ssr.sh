@@ -1,7 +1,7 @@
 #!/bin/bash
 # shadowsocksR/SSR install
 # Author: Tony<https://git.io/Tony>
-# bash <(curl -sL https://raw.githubusercontent.com/smtp268/ssr/main/ssr.sh)
+# bash <(curl -sL https://git.io/SSR.sh)
 
 RED="\033[31m"      # Error message
 GREEN="\033[32m"    # Success message
@@ -618,11 +618,11 @@ showLog() {
 menu() {
     clear 
     echo "#############################################################"
-    echo -e "# ${YELLOW}✅ ShadowsocksR/SSR install 😄${PLAIN}             #"
-    echo -e "# ${GREEN}Author${PLAIN}: Tony                           #"
-    echo -e "# ${GREEN}Website${PLAIN}: https://git.io/Tony           #"
-    echo -e "# ${GREEN}TG${PLAIN}: https://t.me/Tony_Chat_bot         #"
-    echo -e "# ${GREEN}✅ ${PLAIN}: 😄 #"
+    echo -e "# ${YELLOW}✅ ShadowsocksR/SSR install 😄${PLAIN}       #"
+    echo -e "# ${GREEN}✅Author${PLAIN}: Tony                        #"
+    echo -e "# ${GREEN}✅Website${PLAIN}: https://git.io/Tony        #"
+    echo -e "# ${GREEN}✅TG${PLAIN}: https://t.me/Tony_Chat_bot      #"
+    echo -e "# ${GREEN}✅ ${PLAIN}: 😄  "
     echo "#############################################################"
     echo ""
 
