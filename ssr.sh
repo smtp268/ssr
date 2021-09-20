@@ -618,11 +618,11 @@ showLog() {
 menu() {
     clear 
     echo "#############################################################"
-    echo -e "# ${YELLOW}ShadowsocksR/SSR install ${PLAIN}             #"
+    echo -e "# ${YELLOW}✅ ShadowsocksR/SSR install 😄${PLAIN}             #"
     echo -e "# ${GREEN}Author${PLAIN}: Tony                           #"
     echo -e "# ${GREEN}Website${PLAIN}: https://git.io/Tony           #"
     echo -e "# ${GREEN}TG${PLAIN}: https://t.me/Tony_Chat_bot         #"
-    echo -e "# ${GREEN} ${PLAIN}:  #"
+    echo -e "# ${GREEN}✅ ${PLAIN}: 😄 #"
     echo "#############################################################"
     echo ""
 
