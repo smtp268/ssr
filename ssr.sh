@@ -1,7 +1,7 @@
 #!/bin/bash
 # shadowsocksR/SSR install
 # Author: Tony<https://git.io/Tony>
-
+# bash <(curl -sL https://raw.githubusercontent.com/smtp268/ssr/main/ssr.sh)
 
 RED="\033[31m"      # Error message
 GREEN="\033[32m"    # Success message
@@ -616,18 +616,18 @@ showLog() {
 }
 
 menu() {
-    clear <>
+    clear 
     echo "#############################################################"
-    echo -e "#             ${RED}ShadowsocksR/SSR install ${PLAIN}               #"
-    echo -e "# ${GREEN}Author${PLAIN}: Tony                                    #"
-    echo -e "# ${GREEN}Website${PLAIN}: https://git.io/Tony                                #"
-    echo -e "# ${GREEN}TG${PLAIN}: https://t.me/Tony_Chat_bot                             #"
+    echo -e "# ${YELLOW}ShadowsocksR/SSR install ${PLAIN}             #"
+    echo -e "# ${GREEN}Author${PLAIN}: Tony                           #"
+    echo -e "# ${GREEN}Website${PLAIN}: https://git.io/Tony           #"
+    echo -e "# ${GREEN}TG${PLAIN}: https://t.me/Tony_Chat_bot         #"
     echo -e "# ${GREEN} ${PLAIN}:  #"
     echo "#############################################################"
     echo ""
 
     echo -e "  ${GREEN}1.${PLAIN}  安装SSR"
-    echo -e "  ${GREEN}2.  ${RED}卸载SSR${PLAIN}"
+    echo -e "  ${GREEN}2.${RED}  卸载SSR${PLAIN}"
     echo " -------------"
     echo -e "  ${GREEN}4.${PLAIN}  启动SSR"
     echo -e "  ${GREEN}5.${PLAIN}  重启SSR"
@@ -635,7 +635,7 @@ menu() {
     echo " -------------"
     echo -e "  ${GREEN}7.${PLAIN}  查看SSR配置"
     echo -e "  ${GREEN}8.${PLAIN}  查看配置二维码"
-    echo -e "  ${GREEN}9.  ${RED}修改SSR配置${PLAIN}"
+    echo -e "  ${GREEN}9.${RED}  修改SSR配置${PLAIN}"
     echo -e "  ${GREEN}10.${PLAIN} 查看SSR日志"
     echo " -------------"
     echo -e "  ${GREEN}0.${PLAIN} 退出"
